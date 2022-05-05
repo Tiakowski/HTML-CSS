@@ -1,46 +1,6 @@
-header {
-    background: #BBBBBB;
-    padding: 30px 0;
-}
-
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
-
-.logo {
-    width: 35%;
-}
-
-nav {
-    position: absolute;
-    top: 30px;
-    right: 0;
-}
-
-nav li {
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline;
-    margin: 0 0 0 15px;
-    
-}
-
-nav a {
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #C78C19 
-}
 
 #banner {
-    width: 100%;
-    
+    width: 100%;    
 }
 .rubronegro {
     margin-top: 10px;

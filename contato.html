@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="header.css">
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img class="logo" src="idolos/cariocao.png" alt="Logo do campeonato carioca 2021"></h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="idolos.html">Ídolos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form>
+                <label for="nome">Nome e Sobrenome: </label>
+                <input class="imput-padrao" type="text" id="nome" required>
+
+                <label for="email">Email:</label>
+                <input class="imput-padrao" type="email" id="email" required placeholder="email@dominio.com">
+
+                <label for="telefone">Telefone:</label>
+                <input class="imput-padrao" type="tel" id="telefone" required placeholder="(xx)xxxxx-xxxx">
+                
+                <fieldset>
+                    <legend>Time do coração:</legend>
+                    <label for="fla-radio"><input type="radio" name="time" value="flamengo" id="fla-radio">Flamengo</label>
+
+                    <label for="vas-radio"><input type="radio" name="time" value="vasco" id="vas-radio">Vasco</label>
+                    
+                    <label for="bot-radio"><input type="radio" name="time" value="botafogo" id="bot-radio">Botafogo</label>
+                </fieldset>
+
+                <label for="Mensagem">Mensagem: </label>
+                <textarea class="imput-padrao" rows="10" id="Mensagem: "></textarea>
+
+                <input type="submit" class="enviar">
+            </form>
+        </main>
+        <footer>
+            <img class= "trofeu" src="idolos/trofeu.png" alt="Trofeu">
+            <p class = "copyright">&copy; Copyright Ninguem - 2022 </p>
+        </footer>
+    </body>
+</html>

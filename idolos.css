@@ -3,48 +3,6 @@ body {
 }
 
 
-
-header {
-    background: #BBBBBB;
-    padding: 30px 0;
-}
-
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
-
-.logo {
-    width: 35%;
-}
-
-nav {
-    position: absolute;
-    top: 30px;
-    right: 0;
-
-}
-
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
-    
-}
-
-
-nav a {
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #C78C19;
-}
-
 .idolos {
     width: 940px;
     margin: 0 auto;
@@ -91,15 +49,4 @@ nav a:hover {
         margin-bottom: 25px;
 }
 
-footer {
-    text-align: center;
-    background: url("idolos/soccer.png");
-    padding-top: 20px;
-}
 
-.copyright {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    background-color: black;
-    color: white;
-}

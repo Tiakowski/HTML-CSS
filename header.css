@@ -1,0 +1,95 @@
+header {
+    background: #BBBBBB;
+    padding: 30px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 35%;
+}
+
+nav {
+    position: absolute;
+    top: 30px;
+    right: 0;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+    color: #C78C19;
+}
+
+footer {
+    text-align: center;
+    background: url("idolos/soccer.png");
+    padding-top: 20px;
+}
+
+.copyright {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: black;
+    color: white;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    margin: 0 0 10px;
+    display: block;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imput-padrao {
+    display: block;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    width: 30%;
+}
+
+.enviar {
+    width: 20%;
+    padding: 10px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.1);
+}
