@@ -1,0 +1,41 @@
+
+#banner {
+    width: 100%;    
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.rubronegro {
+    margin-top: 10px;
+    text-align: center; background-color: #8b0000; color: #f0ffff;
+}
+
+.alvinegro {
+    margin-top: 10px;
+    text-align: center; background-color: black; color: #f0ffff;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.escudo {
+    width: 5%;
+    position: relative;
+    left: 440px;
+
+}
+
+p {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.time {
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
