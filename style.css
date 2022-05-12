@@ -84,11 +84,11 @@ form label, form legend {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 5px;
-    width: 100%;
+    width: 40%;
 }
 
 .enviar {
-    width: 50%;
+    width: 20%;
     padding: 10px 0;
     background: orange;
     color: white;
@@ -141,18 +141,23 @@ form label, form legend {
 
 .banner {
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .rubronegro, .alvinegro {
     font-size: 2em;
     text-align: center;
-    margin: 1em 0 0;
 }
 
 .escudo {
     float: left;
+    margin-right: 15px;
     width: 70px;
-    
+    box-shadow: 5px 5px 5px black;   
+}
+
+.escudo:hover {
+    transform: scale(1.03);
 }
 
 .principal p {
@@ -191,3 +196,59 @@ form label, form legend {
     width: 30%;
     display: inline-block;
 }
+
+.paragrafo-mapa:before {
+    content: "🏆";
+} 
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .mapa ul, .time, .idolos, .contato {
+        width: auto;
+    }
+
+    .principal p {
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: justify;
+    }
+
+    .imput-padrao {
+        width: 100%;
+    }
+
+    .enviar {
+        width: 50%;
+    }
+
+    .contato {
+        margin-left: 8%;
+        margin-right: 15%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .logo {
+        width: 55%;
+        padding-bottom: 15px;
+    }
+
+    .banner {
+        margin-bottom: 0px;
+    }
+
+    .idolos li {
+        display: block;
+        width: 70%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
+    }
+
